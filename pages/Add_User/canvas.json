@@ -316,11 +316,7 @@
                 "boxShadow": "none",
                 "buttonVariant": "PRIMARY"
               },
-              "dynamicPropertyPathList": [
-                {
-                  "key": "onSubmit"
-                }
-              ],
+              "dynamicPropertyPathList": [],
               "displayName": "JSON Form",
               "bottomRow": 77,
               "fieldLimitExceeded": false,
