@@ -3,6 +3,10 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Add_User",
+      "isDefault": false
     }
   ],
   "viewMode": false,

@@ -1,0 +1,371 @@
+{
+  "unpublishedPage": {
+    "name": "Add_User",
+    "slug": "add-user",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 770,
+          "containerStyle": "none",
+          "snapRows": 93,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 77,
+          "minHeight": 950,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "borderColor": "#E0DEDE",
+              "iconSVG": "/static/media/icon.5b428de12db9ad6a591955ead07f86e9.svg",
+              "onSubmit": "{{Add_new_user_q.data}}",
+              "topRow": 28,
+              "type": "JSON_FORM_WIDGET",
+              "animateLoading": true,
+              "leftColumn": 21,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "submitButtonStyles.buttonColor"
+                },
+                {
+                  "key": "submitButtonStyles.borderRadius"
+                },
+                {
+                  "key": "resetButtonStyles.buttonColor"
+                },
+                {
+                  "key": "resetButtonStyles.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.cellBorderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.username.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.username.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.username.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.userpassword.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.userpassword.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.userpassword.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.userID.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.userID.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.userID.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.contact.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.contact.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.contact.borderRadius"
+                }
+              ],
+              "showReset": true,
+              "dynamicHeight": "AUTO_HEIGHT",
+              "autoGenerateForm": true,
+              "resetButtonStyles": {
+                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                "boxShadow": "none",
+                "buttonVariant": "SECONDARY"
+              },
+              "isVisible": true,
+              "version": 1,
+              "isLoading": false,
+              "submitButtonLabel": "Submit",
+              "childStylesheet": {
+                "ARRAY": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none",
+                  "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "cellBoxShadow": "none"
+                },
+                "OBJECT": {
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none",
+                  "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "cellBoxShadow": "none"
+                },
+                "CHECKBOX": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                },
+                "CURRENCY_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "DATEPICKER": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "EMAIL_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "MULTISELECT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "MULTILINE_TEXT_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "NUMBER_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "PASSWORD_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "PHONE_NUMBER_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "RADIO_GROUP": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "boxShadow": "none"
+                },
+                "SELECT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "SWITCH": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "boxShadow": "none"
+                },
+                "TEXT_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                }
+              },
+              "disabledWhenInvalid": true,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "originalBottomRow": 69,
+              "useSourceData": false,
+              "schema": {
+                "__root_schema__": {
+                  "children": {
+                    "username": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.username))(Add_New_User.sourceData, Add_New_User.formData, Add_New_User.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "Ziyu Wang",
+                      "isCustomField": false,
+                      "accessor": "username",
+                      "identifier": "username",
+                      "position": 0,
+                      "originalIdentifier": "username",
+                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(Add_New_User.sourceData, Add_New_User.formData, Add_New_User.fieldState)}}",
+                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(Add_New_User.sourceData, Add_New_User.formData, Add_New_User.fieldState)}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Username"
+                    },
+                    "userpassword": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.userpassword))(Add_New_User.sourceData, Add_New_User.formData, Add_New_User.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "123absc",
+                      "isCustomField": false,
+                      "accessor": "userpassword",
+                      "identifier": "userpassword",
+                      "position": 1,
+                      "originalIdentifier": "userpassword",
+                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(Add_New_User.sourceData, Add_New_User.formData, Add_New_User.fieldState)}}",
+                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(Add_New_User.sourceData, Add_New_User.formData, Add_New_User.fieldState)}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Userpassword"
+                    },
+                    "userID": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.userID))(Add_New_User.sourceData, Add_New_User.formData, Add_New_User.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "0021134",
+                      "isCustomField": false,
+                      "accessor": "userID",
+                      "identifier": "userID",
+                      "position": 2,
+                      "originalIdentifier": "userID",
+                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(Add_New_User.sourceData, Add_New_User.formData, Add_New_User.fieldState)}}",
+                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(Add_New_User.sourceData, Add_New_User.formData, Add_New_User.fieldState)}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "User ID"
+                    },
+                    "contact": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.contact))(Add_New_User.sourceData, Add_New_User.formData, Add_New_User.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "ziyuwang.com",
+                      "isCustomField": false,
+                      "accessor": "contact",
+                      "identifier": "contact",
+                      "position": 3,
+                      "originalIdentifier": "contact",
+                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(Add_New_User.sourceData, Add_New_User.formData, Add_New_User.fieldState)}}",
+                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(Add_New_User.sourceData, Add_New_User.formData, Add_New_User.fieldState)}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Contact"
+                    }
+                  },
+                  "dataType": "object",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(Add_New_User.sourceData, Add_New_User.formData, Add_New_User.fieldState)}}",
+                  "fieldType": "Object",
+                  "sourceData": {
+                    "name": "John",
+                    "date_of_birth": "20/02/1990",
+                    "employee_id": 1001
+                  },
+                  "isCustomField": false,
+                  "accessor": "__root_schema__",
+                  "identifier": "__root_schema__",
+                  "position": -1,
+                  "originalIdentifier": "__root_schema__",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(Add_New_User.sourceData, Add_New_User.formData, Add_New_User.fieldState)}}",
+                  "boxShadow": "none",
+                  "cellBorderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(Add_New_User.sourceData, Add_New_User.formData, Add_New_User.fieldState)}}",
+                  "cellBoxShadow": "none",
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isVisible": true,
+                  "labelTextSize": "0.875rem",
+                  "label": ""
+                }
+              },
+              "widgetName": "Add_New_User",
+              "submitButtonStyles": {
+                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                "boxShadow": "none",
+                "buttonVariant": "PRIMARY"
+              },
+              "dynamicPropertyPathList": [
+                {
+                  "key": "onSubmit"
+                }
+              ],
+              "displayName": "JSON Form",
+              "bottomRow": 77,
+              "fieldLimitExceeded": false,
+              "parentRowSpace": 10,
+              "title": "Form",
+              "hideCard": false,
+              "parentColumnSpace": 22.875,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onSubmit"
+                }
+              ],
+              "borderWidth": "1",
+              "sourceData": "{\n  \"username\": \"Ziyu WangAS\",\n  \"userpassword\": \"123abscAS\",\n  \"userID\": \"0021134\",\n  \"contact\": \"ziyuwang.comAS\"\n}",
+              "resetButtonLabel": "Reset",
+              "key": "icdarufp1o",
+              "backgroundColor": "#fff",
+              "isDeprecated": false,
+              "rightColumn": 46,
+              "widgetId": "crh1xt0oqr",
+              "minWidth": 450,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "scrollContents": true,
+              "responsiveBehavior": "fill",
+              "fixedFooter": true,
+              "originalTopRow": 28,
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Add_User",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "6436ecb9ffee621465c62c91_6436ece9ffee621465c62c96"
+}

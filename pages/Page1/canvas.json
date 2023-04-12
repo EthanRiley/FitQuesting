@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 540,
+          "bottomRow": 530,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -36,14 +36,14 @@
                 "photo",
                 "video recorder"
               ],
-              "topRow": 21,
-              "bottomRow": 54,
+              "topRow": 20,
+              "bottomRow": 53,
               "parentRowSpace": 10,
               "type": "CAMERA_WIDGET",
               "hideCard": false,
               "mode": "CAMERA",
               "parentColumnSpace": 10.21875,
-              "leftColumn": 7,
+              "leftColumn": 23,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -53,7 +53,7 @@
               "key": "8fllhbvanm",
               "isMirrored": true,
               "isDeprecated": false,
-              "rightColumn": 32,
+              "rightColumn": 48,
               "widgetId": "ijsjqv9b1h",
               "isVisible": true,
               "version": 1,
