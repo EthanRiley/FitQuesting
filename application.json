@@ -5,10 +5,6 @@
       "isDefault": true
     },
     {
-      "id": "Add_User",
-      "isDefault": false
-    },
-    {
       "id": "Add a new",
       "isDefault": false
     }
