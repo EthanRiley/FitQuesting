@@ -11,6 +11,10 @@
     {
       "id": "change password",
       "isDefault": false
+    },
+    {
+      "id": "Hire a new employee",
+      "isDefault": false
     }
   ],
   "viewMode": false,
