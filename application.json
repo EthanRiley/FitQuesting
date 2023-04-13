@@ -7,6 +7,10 @@
     {
       "id": "Add_User",
       "isDefault": false
+    },
+    {
+      "id": "Add a new",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -14,6 +18,9 @@
   "unreadCommentThreads": 0,
   "color": "#D9E7FF",
   "icon": "burger",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
