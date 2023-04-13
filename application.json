@@ -7,6 +7,10 @@
     {
       "id": "Add a new",
       "isDefault": false
+    },
+    {
+      "id": "change password",
+      "isDefault": false
     }
   ],
   "viewMode": false,

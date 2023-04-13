@@ -98,7 +98,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Making a new user",
+                      "text": "New user regestration",
                       "key": "gmev6rt3h2",
                       "isDeprecated": false,
                       "rightColumn": 52,
