@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "get_all_trainer",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -47,7 +47,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Add a new_Api1",
+  "id": "Add a new_get_all_trainer",
   "deleted": false,
   "gitSyncId": "6436ecb9ffee621465c62c91_64381715fcacb70f975ea80b"
 }

@@ -493,7 +493,7 @@
                       "type": "SELECT_WIDGET",
                       "serverSideFiltering": false,
                       "hideCard": false,
-                      "defaultOptionValue": "GREEN",
+                      "defaultOptionValue": "",
                       "animateLoading": true,
                       "parentColumnSpace": 6.4140625,
                       "dynamicTriggerPathList": [],
@@ -510,7 +510,7 @@
                         }
                       ],
                       "labelPosition": "Top",
-                      "options": "{{Api1.data}}",
+                      "options": "{{get_all_trainer.data}}",
                       "placeholderText": "Select option",
                       "isDisabled": false,
                       "key": "5x192vzhgq",
@@ -575,8 +575,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Add a new_Api1",
-              "name": "Api1",
+              "id": "Add a new_get_all_trainer",
+              "name": "get_all_trainer",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
