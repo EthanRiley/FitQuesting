@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 530,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -25,45 +25,7 @@
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "children": [
-            {
-              "boxShadow": "none",
-              "widgetName": "Camera1",
-              "isCanvas": false,
-              "displayName": "Camera",
-              "iconSVG": "/static/media/icon.79c0d6de26a15bf464f2485130faa461.svg",
-              "searchTags": [
-                "photo",
-                "video recorder"
-              ],
-              "topRow": 20,
-              "bottomRow": 53,
-              "parentRowSpace": 10,
-              "type": "CAMERA_WIDGET",
-              "hideCard": false,
-              "mode": "CAMERA",
-              "parentColumnSpace": 10.21875,
-              "leftColumn": 23,
-              "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "isDisabled": false,
-              "key": "8fllhbvanm",
-              "isMirrored": true,
-              "isDeprecated": false,
-              "rightColumn": 48,
-              "widgetId": "ijsjqv9b1h",
-              "isVisible": true,
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "responsiveBehavior": "hug",
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
-            }
-          ]
+          "children": []
         },
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
