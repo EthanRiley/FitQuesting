@@ -12,7 +12,7 @@ We created an app via apsmith that is connected to a MySQL database via Flask. T
 
 
 ## Trainer Pages:
-# Page 1: Trainer Homepage:
+#### Page 1: Trainer Homepage:
 On this page, a triner should be able to view and create diets. While a trainer may not have the ability to log foods, they can set diet goals for clients. 
 
 
