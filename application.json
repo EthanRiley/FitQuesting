@@ -11,6 +11,10 @@
     {
       "id": "Diets",
       "isDefault": false
+    },
+    {
+      "id": "hireTrainer",
+      "isDefault": false
     }
   ],
   "viewMode": false,
