@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "GetUserList",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/u/userPrograms/{{}}"
+        "url": "web:4000/u/addUser"
       },
       "invalids": [],
       "messages": [],
@@ -36,20 +36,18 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      ""
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Exercise Page_Api1",
+  "id": "Exercise Page_GetUserList",
   "deleted": false,
-  "gitSyncId": "643eb5e0a09ea04c4aec9b8e_643ecee3813bd916c840975f"
+  "gitSyncId": "643eb5e0a09ea04c4aec9b8e_643ee83f3ac44a087f5f92af"
 }
