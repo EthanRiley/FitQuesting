@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Exercise Page",
+    "slug": "exercise-page",
     "layouts": [
       {
         "viewMode": false,
@@ -26,6 +26,60 @@
           "leftColumn": 0,
           "children": [
             {
+              "boxShadow": "none",
+              "widgetName": "SelectUser",
+              "isFilterable": true,
+              "displayName": "Select",
+              "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+              "labelText": "Pick a Day",
+              "searchTags": [
+                "dropdown"
+              ],
+              "topRow": 2,
+              "bottomRow": 9,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "SELECT_WIDGET",
+              "serverSideFiltering": false,
+              "hideCard": false,
+              "defaultOptionValue": "",
+              "animateLoading": true,
+              "parentColumnSpace": 17.064453125,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 3,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelPosition": "Top",
+              "options": "",
+              "placeholderText": "Select option",
+              "isDisabled": false,
+              "key": "u91kciwcnj",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 24,
+              "dynamicHeight": "FIXED",
+              "widgetId": "r414guuwvj",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
+            },
+            {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "widgetName": "Container1",
               "borderColor": "#E0DEDE",
@@ -37,8 +91,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 7,
-              "bottomRow": 34,
+              "topRow": 9,
+              "bottomRow": 36,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -212,7 +266,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "/",
+                      "text": "",
                       "key": "n9zxtv6jlb",
                       "isDeprecated": false,
                       "rightColumn": 59,
@@ -1157,10 +1211,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 7,
+              "originalTopRow": 9,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 34,
+              "originalBottomRow": 36,
               "minDynamicHeight": 10
             }
           ]
@@ -1168,14 +1222,15 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Exercise Page",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "6436d9ff17cb890feeb470cd_643858895b4616676812dde9"
