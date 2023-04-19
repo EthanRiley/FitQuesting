@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/u/max/{{SelectUser.selectedOptionValue}}/{{GetExercise.data[0].exerciseID}}"
+        "url": "web:4000/u/max"
       },
       "invalids": [],
       "messages": [],
@@ -42,21 +42,22 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
+      },
+      {
+        "key": "datasourceUrl"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Exc_Plan_Form.data",
-      "GetExercise.data[0].exerciseID",
-      "SelectUser.selectedOptionValue"
+      "Exc_Plan_Form.data"
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []

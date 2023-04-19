@@ -31,7 +31,7 @@
       "queryParameters": [],
       "body": "{{dietform.data}}",
       "bodyFormData": [],
-      "httpMethod": "POST",
+      "httpMethod": "GET",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

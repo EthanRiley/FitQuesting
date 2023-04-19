@@ -644,7 +644,7 @@
                               "type": "SELECT_WIDGET",
                               "serverSideFiltering": false,
                               "hideCard": false,
-                              "defaultOptionValue": "",
+                              "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( `1234`))(selectTagetUser.options, selectTagetUser.serverSideFiltering) }}",
                               "animateLoading": true,
                               "parentColumnSpace": 6.086669921875,
                               "dynamicTriggerPathList": [],
@@ -658,6 +658,9 @@
                                 },
                                 {
                                   "key": "options"
+                                },
+                                {
+                                  "key": "defaultOptionValue"
                                 }
                               ],
                               "labelPosition": "Top",
