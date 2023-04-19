@@ -2,13 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Add_new",
+    "name": "UpdateDiet",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "sshProxyEnabled": false,
-        "url": "web:4000/u/addUser"
+        "url": "web:4000/t/updateDiet"
       },
       "invalids": [],
       "messages": [],
@@ -17,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Add a new",
+    "pageId": "Diets Copy",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -30,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{Add_a_new.data}}",
+      "body": "{{updateDiet.data}}",
       "bodyFormData": [],
-      "httpMethod": "POST",
+      "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -53,14 +52,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Add_a_new.data"
+      "updateDiet.data"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Add a new_Add_new",
+  "id": "Diets Copy_UpdateDiet",
   "deleted": false,
-  "gitSyncId": "6436ecb9ffee621465c62c91_643809660e783c37085a2a63"
+  "gitSyncId": "6436dc295252da418b5cf87c_643fa0c93971ce49789983e2"
 }

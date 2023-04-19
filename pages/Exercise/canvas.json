@@ -1370,8 +1370,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "SelectUser.selectedOptionValue",
-                "GetExercise.data[0].exerciseID"
+                "GetExercise.data[0].exerciseID",
+                "SelectUser.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             },

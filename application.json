@@ -5,19 +5,19 @@
       "isDefault": true
     },
     {
-      "id": "Add a new",
-      "isDefault": false
-    },
-    {
-      "id": "Diets",
-      "isDefault": false
-    },
-    {
       "id": "hireTrainer",
       "isDefault": false
     },
     {
       "id": "Exercise",
+      "isDefault": false
+    },
+    {
+      "id": "Diets Copy",
+      "isDefault": false
+    },
+    {
+      "id": "Add a new Copy",
       "isDefault": false
     }
   ],
@@ -27,7 +27,7 @@
   "color": "#D9E7FF",
   "icon": "burger",
   "unpublishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "publishedAppLayout": {
     "type": "FLUID"
