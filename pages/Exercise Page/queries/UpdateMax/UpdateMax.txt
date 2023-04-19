@@ -1,0 +1,7 @@
+{
+"check1": {{Checkbox1.isChecked}},
+	"check2" : {{Checkbox2.isChecked}},
+	"check3" : {{Checkbox3.isChecked}},
+	"check4" : {{Checkbox4.isChecked}},
+	"check5" : {{Checkbox5.isChecked}}
+}
