@@ -2,13 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Add_new",
+    "name": "GetSpecialtyTrainers",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "sshProxyEnabled": false,
-        "url": "web:4000/u/addUser"
+        "url": "web:4000/t/PublicTrainerInfo"
       },
       "invalids": [],
       "messages": [],
@@ -17,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Add a new Copy",
+    "pageId": "Add New User",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -30,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{Add_a_new.data}}",
+      "body": "{{trainerInfo.searchText}}",
       "bodyFormData": [],
-      "httpMethod": "POST",
+      "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -53,14 +52,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Add_a_new.data"
+      "trainerInfo.searchText"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Add a new Copy_Add_new",
+  "id": "Add New User_GetSpecialtyTrainers",
   "deleted": false,
-  "gitSyncId": "6436dc295252da418b5cf87c_643fa0d43971ce49789983f1"
+  "gitSyncId": "6436dc295252da418b5cf87c_643fd7083971ce4978998426"
 }
