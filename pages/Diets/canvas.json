@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1370,
+          "bottomRow": 1610,
           "containerStyle": "none",
           "snapRows": 61,
           "parentRowSpace": 1,
@@ -1673,7 +1673,7 @@
                 }
               ],
               "needsHeightForContent": true,
-              "leftColumn": 1,
+              "leftColumn": 33,
               "delimiter": ",",
               "defaultSelectedRowIndex": 0,
               "showInlineEditingOptionDropdown": true,
@@ -1709,7 +1709,7 @@
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "columnUpdatedAt": 1681663131007,
-              "originalBottomRow": 137,
+              "originalBottomRow": 161,
               "primaryColumnId": "machineid",
               "defaultSelectedRowIndices": [
                 0
@@ -1724,7 +1724,7 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 137,
+              "bottomRow": 161,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
