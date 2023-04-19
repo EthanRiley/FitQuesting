@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 640,
+          "bottomRow": 650,
           "containerStyle": "none",
           "snapRows": 54,
           "parentRowSpace": 1,
@@ -36,7 +36,7 @@
                 "group"
               ],
               "topRow": 7,
-              "bottomRow": 64,
+              "bottomRow": 65,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -57,7 +57,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 570,
+                  "bottomRow": 580,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -133,8 +133,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 51,
-                      "bottomRow": 55,
+                      "topRow": 52,
+                      "bottomRow": 56,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -167,10 +167,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 52,
+                      "originalTopRow": 51,
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 56,
+                      "originalBottomRow": 55,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
@@ -186,8 +186,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 51,
-                      "bottomRow": 55,
+                      "topRow": 52,
+                      "bottomRow": 56,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -220,10 +220,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 46,
+                      "originalTopRow": 51,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 50,
+                      "originalBottomRow": 55,
                       "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
@@ -432,7 +432,7 @@
                       "type": "SELECT_WIDGET",
                       "serverSideFiltering": false,
                       "hideCard": false,
-                      "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( `000111222`))(trainerID.options, trainerID.serverSideFiltering) }}",
+                      "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( get_all_trainer.data[0].value))(trainerID.options, trainerID.serverSideFiltering) }}",
                       "animateLoading": true,
                       "parentColumnSpace": 6.4140625,
                       "dynamicTriggerPathList": [],
@@ -511,7 +511,7 @@
                         }
                       ],
                       "needsHeightForContent": true,
-                      "leftColumn": 34,
+                      "leftColumn": 39,
                       "delimiter": ",",
                       "defaultSelectedRowIndex": 0,
                       "showInlineEditingOptionDropdown": true,
@@ -672,7 +672,7 @@
                       "key": "sxycl16icm",
                       "canFreezeColumn": true,
                       "isDeprecated": false,
-                      "rightColumn": 63,
+                      "rightColumn": 64,
                       "textSize": "0.875rem",
                       "widgetId": "2yeza9loh0",
                       "minWidth": 450,
@@ -686,6 +686,68 @@
                       "responsiveBehavior": "fill",
                       "isVisiblePagination": true,
                       "verticalAlignment": "CENTER"
+                    },
+                    {
+                      "widgetName": "outcome",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 36,
+                      "bottomRow": 40,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 17.064453125,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "{{Add_new.data}}",
+                      "key": "l3dzu0tse9",
+                      "isDeprecated": false,
+                      "rightColumn": 22,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "tk3ipfsxlx",
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "x193uenx4b",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
                     }
                   ],
                   "key": "pieuoiwz3h",
@@ -729,19 +791,33 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Add New User_trainerInfoTable",
+              "name": "trainerInfoTable",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Add New User_get_all_trainer",
               "name": "get_all_trainer",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
-              "id": "Add New User_trainerInfoTable",
-              "name": "trainerInfoTable",
+              "id": "Add New User_Add_new",
+              "name": "Add_new",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "Add_a_new.data"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
