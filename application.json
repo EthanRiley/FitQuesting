@@ -15,6 +15,10 @@
     {
       "id": "hireTrainer",
       "isDefault": false
+    },
+    {
+      "id": "Exercise",
+      "isDefault": false
     }
   ],
   "viewMode": false,
