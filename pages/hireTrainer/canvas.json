@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 520,
+          "bottomRow": 550,
           "containerStyle": "none",
           "snapRows": 65,
           "parentRowSpace": 1,
@@ -36,7 +36,7 @@
                 "group"
               ],
               "topRow": 9,
-              "bottomRow": 52,
+              "bottomRow": 55,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -57,7 +57,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 430,
+                  "bottomRow": 460,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -134,7 +134,7 @@
                         "submit"
                       ],
                       "topRow": 37,
-                      "bottomRow": 41,
+                      "bottomRow": 44,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -186,7 +186,7 @@
                         "submit"
                       ],
                       "topRow": 37,
-                      "bottomRow": 41,
+                      "bottomRow": 44,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -214,10 +214,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 39,
+                      "originalTopRow": 37,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 43,
+                      "originalBottomRow": 41,
                       "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
@@ -397,68 +397,6 @@
                       "iconAlign": "left",
                       "defaultText": "100",
                       "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "addstatus",
-                      "dynamicPropertyPathList": [
-                        {
-                          "key": "text"
-                        }
-                      ],
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 32,
-                      "bottomRow": 36,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "parentColumnSpace": 6.4140625,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 2,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Hire_a_trainer.data}}",
-                      "key": "otknmdd6x5",
-                      "isDeprecated": false,
-                      "rightColumn": 37,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "khscrf6g6l",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "jgomn408sm",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "fontSize": "1rem",
-                      "minDynamicHeight": 4
                     }
                   ],
                   "key": "k5a9zlg6f8",
@@ -494,25 +432,12 @@
               "originalTopRow": 9,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 52,
+              "originalBottomRow": 55,
               "minDynamicHeight": 10
             }
           ]
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "hireTrainer_Hire_a_trainer",
-              "name": "Hire_a_trainer",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Hiring_form.data"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "hireTrainer",
